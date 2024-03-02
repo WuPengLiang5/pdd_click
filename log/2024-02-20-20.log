@@ -1,0 +1,148 @@
+程序开始时间：2024-02-20 20:51:14.452238
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 278, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 270, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 232, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-20 20:51:23.939791
+打开VX
+微信已经打开
+打开小程序
+找到了applet.png，位置为288,847
+打开小程序拼多多
+点击个人中心
+找到了personal_center.png，位置为1210,981
+点击省钱月卡
+找到了save_money_monthly_card.png，位置为766,232
+进入省钱月卡页面耗费时间0秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间1秒。
+找到了save_money_title.png，位置为959,32
+找到了save_money_list.png，位置为968,392
+没找到quxiao1.png
+没有出现弹框！
+-----免费试用更多好货-----
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+找到了free_use_btn.png，位置为959,788
+点击免费试用更多
+-----提升概率-----
+第1个‘提升概率’的位置为1193，558
+找到了21.png，位置为1190,562
+找到了come_back_tomorrow.png，位置为1175,740
+‘去完成’已完成，明天再来！
+找到了back.png，位置为681,34
+第2个‘提升概率’的位置为1193，770
+找到了21.png，位置为1190,562
+找到了come_back_tomorrow.png，位置为1175,740
+‘去完成’已完成，明天再来！
+找到了back.png，位置为681,34
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 278, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 272, in main
+    enter_pdd()
+  File "F:\my_python\click_pdd.py", line 263, in enter_pdd
+    improve_probability()
+  File "F:\my_python\click_pdd.py", line 136, in improve_probability
+    res=ac.read_from_excel()
+AttributeError: module 'my_auto_click' has no attribute 'read_from_excel'
+程序开始时间：2024-02-20 20:56:14.720253
+打开VX
+微信已经打开
+打开小程序
+找到了applet.png，位置为288,847
+打开小程序拼多多
+点击个人中心
+没找到personal_center.png
+点击省钱月卡
+没找到save_money_monthly_card.png
+进入省钱月卡页面耗费时间0秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间1秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间2秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间3秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间4秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间5秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间6秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间7秒。
+没找到save_money_title.png
+找到了save_money_list.png，位置为968,119
+进入省钱月卡页面耗费时间8秒。
+没找到save_money_title.png
+找到了save_money_list.png，位置为968,119
+进入省钱月卡页面耗费时间9秒。
+没找到save_money_title.png
+找到了save_money_list.png，位置为968,119
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 272, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 266, in main
+    enter_pdd()
+  File "F:\my_python\click_pdd.py", line 254, in enter_pdd
+    findfree_use_more()
+  File "F:\my_python\click_pdd.py", line 36, in findfree_use_more
+    raise Exception("进入省钱月卡失败！")
+Exception: 进入省钱月卡失败！
+程序开始时间：2024-02-20 20:56:53.017216
+打开VX
+微信已经打开
+打开小程序
+找到了applet.png，位置为288,847
+打开小程序拼多多
+点击个人中心
+找到了personal_center.png，位置为1210,981
+点击省钱月卡
+找到了save_money_monthly_card.png，位置为766,232
+进入省钱月卡页面耗费时间0秒。
+没找到save_money_title.png
+没找到save_money_list.png
+进入省钱月卡页面耗费时间1秒。
+找到了save_money_title.png，位置为959,32
+找到了save_money_list.png，位置为968,392
+没找到quxiao1.png
+没有出现弹框！
+-----免费试用更多好货-----
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+没找到free_use_btn.png
+找到了free_use_btn.png，位置为959,788
+点击免费试用更多
+-----提升概率-----
+第1个‘提升概率’的位置为1193，558
+找到了21.png，位置为1190,562
+找到了come_back_tomorrow.png，位置为1175,740
+‘去完成’已完成，明天再来！
+找到了back.png，位置为681,34
+第2个‘提升概率’的位置为1193，770
+找到了21.png，位置为1190,562
+找到了come_back_tomorrow.png，位置为1175,740
+‘去完成’已完成，明天再来！
+找到了back.png，位置为681,34
+当前的时间已存在：2024/02/20

@@ -1,0 +1,15 @@
+2024-03-02 13:47:03,887-schedule-INFO-info message!
+2024-03-02 13:47:03,888-schedule-INFO-任务开始了
+2024-03-02 13:47:03,891-apscheduler.scheduler-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-03-02 13:47:03,892-apscheduler.scheduler-INFO-Added job "execute_program" to job store "default"
+2024-03-02 13:47:03,892-apscheduler.scheduler-INFO-Scheduler started
+2024-03-02 13:50:00,004-apscheduler.executors.default-INFO-Running job "execute_program (trigger: interval[0:30:00], next run at: 2024-03-02 13:50:00 CST)" (scheduled at 2024-03-02 13:50:00+08:00)
+2024-03-02 13:50:00,006-execute_program-INFO-click_pdd.exe执行路径：F:\my_python\dist\click_pdd\click_pdd.exe
+2024-03-02 13:51:29,142-execute_program-INFO-Program executed successfully!（click_pdd.exe成功执行！）
+2024-03-02 13:51:29,143-apscheduler.executors.default-INFO-Job "execute_program (trigger: interval[0:30:00], next run at: 2024-03-02 14:20:00 CST)" executed successfully
+2024-03-02 14:20:00,006-apscheduler.executors.default-INFO-Running job "execute_program (trigger: interval[0:30:00], next run at: 2024-03-02 14:50:00 CST)" (scheduled at 2024-03-02 14:20:00+08:00)
+2024-03-02 14:20:00,008-execute_program-INFO-click_pdd.exe执行路径：F:\my_python\dist\click_pdd\click_pdd.exe
+2024-03-02 14:20:00,008-execute_program-INFO-click_pdd.exe执行路径：F:\my_python\dist\click_pdd\click_pdd.exe
+2024-03-02 14:21:02,993-execute_program-INFO-Program executed successfully!（click_pdd.exe成功执行！）
+2024-03-02 14:21:02,993-execute_program-INFO-Program executed successfully!（click_pdd.exe成功执行！）
+2024-03-02 14:21:02,993-apscheduler.executors.default-INFO-Job "execute_program (trigger: interval[0:30:00], next run at: 2024-03-02 14:50:00 CST)" executed successfully

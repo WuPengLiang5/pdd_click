@@ -1,0 +1,285 @@
+程序开始时间：2024-02-22 18:00:02.522709
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 277, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 269, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 231, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:02:25.538247
+微信窗口已存在！
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 281, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 273, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 235, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:03:24.332049
+微信窗口已存在！
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 281, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 273, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 222, in enter_weChat
+    print(window)
+UnboundLocalError: cannot access local variable 'window' where it is not associated with a value
+程序开始时间：2024-02-22 18:03:43.221169
+微信窗口已存在！
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 281, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 273, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 222, in enter_weChat
+    print(window)
+UnboundLocalError: cannot access local variable 'window' where it is not associated with a value
+程序开始时间：2024-02-22 18:03:54.332558
+微信窗口已存在！
+[Win32Window(hWnd=3279152)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 281, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 273, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 235, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:04:07.583978
+微信窗口已存在！
+<Win32Window left="741", top="0", width="972", height="1020", title="微信">
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 281, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 273, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 235, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:07:24.126574
+微信窗口已存在！
+<Win32Window left="741", top="0", width="972", height="1020", title="微信">
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 281, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 273, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 235, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:13:09.171174
+微信窗口已存在！
+[Win32Window(hWnd=3279152), Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "E:\Python\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+  File "E:\Python\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+  File "E:\Python\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+  File "E:\Python\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+  File "E:\Python\Lib\site-packages\pyscreeze\__init__.py", line 257, in _locateAll_opencv
+    raise ImageNotFoundException('Could not locate the image (highest confidence = %.3f)' % result.max())
+pyscreeze.ImageNotFoundException: Could not locate the image (highest confidence = 0.306)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 283, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 275, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 242, in enter_weChat
+    location=pyautogui.locateOnScreen(pdd_path,confidence=0.5)
+  File "E:\Python\Lib\site-packages\pyautogui\__init__.py", line 174, in wrapper
+    raise ImageNotFoundException  # Raise PyAutoGUI's ImageNotFoundException.
+pyautogui.ImageNotFoundException
+程序开始时间：2024-02-22 18:13:29.112114
+微信窗口已存在！
+[Win32Window(hWnd=461768), Win32Window(hWnd=3410224)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "E:\Python\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+  File "E:\Python\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+  File "E:\Python\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+  File "E:\Python\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+  File "E:\Python\Lib\site-packages\pyscreeze\__init__.py", line 257, in _locateAll_opencv
+    raise ImageNotFoundException('Could not locate the image (highest confidence = %.3f)' % result.max())
+pyscreeze.ImageNotFoundException: Could not locate the image (highest confidence = 0.272)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 283, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 275, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 242, in enter_weChat
+    location=pyautogui.locateOnScreen(pdd_path,confidence=0.5)
+  File "E:\Python\Lib\site-packages\pyautogui\__init__.py", line 174, in wrapper
+    raise ImageNotFoundException  # Raise PyAutoGUI's ImageNotFoundException.
+pyautogui.ImageNotFoundException
+程序开始时间：2024-02-22 18:14:35.656506
+微信窗口已存在！
+[Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 283, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 275, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 237, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:14:45.491036
+微信窗口已存在！
+[Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 283, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 275, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 237, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:14:53.721920
+微信窗口已存在！
+[Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+打开小程序拼多多
+点击个人中心
+没找到personal_center.png
+点击省钱月卡
+没找到save_money_monthly_card.png
+进入省钱月卡页面耗费时间0秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间1秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间2秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间3秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间4秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间5秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间6秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间7秒。
+没找到save_money_title.png
+程序开始时间：2024-02-22 18:15:19.713353
+打开VX
+微信已经打开
+打开小程序
+找到了applet.png，位置为288,847
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 283, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 275, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 237, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:15:51.338480
+微信窗口已存在！
+[Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 283, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 275, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 237, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:19:01.301061
+微信窗口已存在！
+[Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 285, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 277, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 235, in enter_weChat
+    applet_list_window = gw.getWindowsWithTitle('微信')[0]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:19:17.605871
+微信窗口已存在！
+[Win32Window(hWnd=4654306), Win32Window(hWnd=461768)]
+打开小程序
+没找到applet.png
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 285, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 277, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 235, in enter_weChat
+    applet_list_window = gw.getWindowsWithTitle('微信')[0]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:21:07.178679
+打开VX
+微信已经打开
+打开小程序
+找到了applet.png，位置为288,847
+Traceback (most recent call last):
+  File "F:\my_python\click_pdd.py", line 286, in <module>
+    main()
+  File "F:\my_python\click_pdd.py", line 278, in main
+    enter_weChat()
+  File "F:\my_python\click_pdd.py", line 240, in enter_weChat
+    wx_home_window = gw.getWindowsWithTitle('微信')[1]
+IndexError: list index out of range
+程序开始时间：2024-02-22 18:21:23.259314
+微信窗口已存在！
+打开小程序
+找到了applet.png，位置为288,847
+打开小程序拼多多
+点击个人中心
+找到了personal_center.png，位置为1210,981
+点击省钱月卡
+找到了save_money_monthly_card.png，位置为766,232
+进入省钱月卡页面耗费时间0秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间1秒。
+找到了save_money_title.png，位置为959,32
+程序开始时间：2024-02-22 18:21:48.509119
+微信窗口已存在！
+打开小程序
+找到了applet.png，位置为288,847
+打开小程序拼多多
+点击个人中心
+找到了personal_center.png，位置为1210,981
+点击省钱月卡
+没找到save_money_monthly_card.png
+进入省钱月卡页面耗费时间0秒。
+没找到save_money_title.png
+进入省钱月卡页面耗费时间1秒。
+没找到save_money_title.png
